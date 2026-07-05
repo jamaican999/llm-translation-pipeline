@@ -4,7 +4,7 @@
 
 **Author:** Matthew Carvalho  
 **Date:** October 2025  
-**Assignment:** Build an LLM-only translation pipeline with glossary embedding/retrieval
+**Project:** LLM-only translation pipeline with glossary embedding/retrieval — designed, built, evaluated, and documented in three days
 
 ---
 

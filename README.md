@@ -8,11 +8,11 @@ This project implements an LLM-based translation pipeline that uses vector-based
 
 ### Key Features
 
-- Semantic Glossary Retrieval**: Uses sentence transformers and FAISS for fast, relevant term retrieval
-- Multi-language Support**: Translates EN→FR, EN→IT, EN→JP with domain-specific terminology
-- Comprehensive Evaluation**: Automated metrics for term accuracy, latency, and cost analysis
-- Production-Ready**: Modular architecture with clear separation of concerns
-- Proven Results**: 82.6% term accuracy vs 63.9% baseline
+- **Semantic Glossary Retrieval**: Uses sentence transformers and FAISS for fast, relevant term retrieval
+- **Multi-language Support**: Translates EN→FR, EN→IT, EN→JP with domain-specific terminology
+- **Comprehensive Evaluation**: Automated metrics for term accuracy, latency, and cost analysis
+- **Production-Ready**: Modular architecture with clear separation of concerns
+- **Proven Results**: 82.6% term accuracy vs 63.9% baseline
 
 ## Quick Start
 
@@ -92,22 +92,22 @@ llm-translation-pipeline/
 ### Components
 
 1. **Glossary Manager** (`glossary_manager.py`)
-   2. Loads JSONL glossary with metadata
-   3. Embeds terms using sentence transformers
-   4. Builds FAISS index for fast retrieval
-   5. Retrieves relevant terms by semantic similarity
+   - Loads JSONL glossary with metadata
+   - Embeds terms using sentence transformers
+   - Builds FAISS index for fast retrieval
+   - Retrieves relevant terms by semantic similarity
 
 2. **Translation Pipeline** (`translation_pipeline.py`)
-   2. Baseline mode: Direct LLM translation
-   3. Enhanced mode: LLM + glossary constraints
-   4. Batch processing support
-   5. Latency and token tracking
+   - Baseline mode: Direct LLM translation
+   - Enhanced mode: LLM + glossary constraints
+   - Batch processing support
+   - Latency and token tracking
 
 3. **Evaluator** (`evaluator_v2.py`)
-   2. Automatic term detection in source text
-   3. Fuzzy matching for morphological variations
-   4. Comprehensive metrics calculation
-   5. Report generation
+   - Automatic term detection in source text
+   - Fuzzy matching for morphological variations
+   - Comprehensive metrics calculation
+   - Report generation
 
 ### Data Flow
 
@@ -331,9 +331,9 @@ Check that:
 - **Cost increase: +$0.000014 (+61%)**
 
 **For 1M translations:**
-- Baseline: $23,000
-- With retrieval: $37,000
-- **Additional cost: $14,000 for 29% accuracy improvement**
+- Baseline: $23
+- With retrieval: $37
+- **Additional cost: $14 for 29% accuracy improvement**
 
 ## Limitations
 
@@ -357,8 +357,8 @@ If you use this code in your research or project, please cite:
 
 ```
 LLM Translation Pipeline with Glossary Retrieval
-Translation Pipeline Project, October 2025
-https://github.com/your-repo/llm-translation-pipeline
+Matthew Carvalho, October 2025
+https://github.com/jamaican999/llm-translation-pipeline
 ```
 
 ## License

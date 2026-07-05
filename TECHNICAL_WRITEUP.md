@@ -2,7 +2,7 @@
 
 ## Technical Write-Up
 
-**Author:** Translation Pipeline Project  
+**Author:** Matthew Carvalho  
 **Date:** October 2025  
 **Assignment:** Build an LLM-only translation pipeline with glossary embedding/retrieval
 
@@ -220,9 +220,9 @@ Assuming GPT-4.1-mini pricing of $0.15/1M input tokens and $0.60/1M output token
 **Cost increase:** +$0.000014 per translation (+61%)
 
 For 1 million translations:
-- Baseline: $23,000
-- With retrieval: $37,000
-- **Additional cost: $14,000 for 29% accuracy improvement**
+- Baseline: $23
+- With retrieval: $37
+- **Additional cost: $14 for 29% accuracy improvement**
 
 ### 5.3 Scalability Considerations
 
